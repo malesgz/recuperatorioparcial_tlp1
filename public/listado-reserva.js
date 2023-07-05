@@ -13,6 +13,7 @@ const mostrarReservas = (reservas, tablaElement) => {
     reservas.forEach(reserva => {
         registros += `
             <tr>
+                <td>${reserva.origen}</td>
                 <td>${reserva.destino}</td>
                 <td>${reserva.nombre}</td>
                 <td>${reserva.apellido}</td>
