@@ -13,7 +13,7 @@ const { conectarDB } = require('./database');
 conectarDB()
 
 const app = express();
-const port = process.env.PORT || 5500
+const port = process.env.PORT || 5050
 
 // Middlewares
 // TODO: Implementar middlewares
